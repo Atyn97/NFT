@@ -1,0 +1,138 @@
+body {
+    font-family: "Hanken Grotesk";
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+h4 {
+    color: hsl(0, 0%, 100%);
+    font-family: "Outfit";
+    font-size: 18px;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+h4:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.jw:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-family: "Outfit";
+    font-size: 15px;
+    font-weight: 300;
+    padding-top: 0.75rem;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 19rem;
+    height: 32rem;
+    border-radius: 0.75em;
+    position: relative;
+    padding-top: 1.3rem;
+    padding-left: 1.5rem;
+}
+
+.icon-view {
+    transition: .5s ease;
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+    z-index: 1;
+    opacity: 0;
+}
+
+.cyan-bg {
+    transition: .5s ease;
+    position: absolute;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 0.75em;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+}
+
+.cont-img:hover .cyan-bg {
+    opacity: 0.3;
+}
+
+.cont-img:hover .icon-view {
+    opacity: 1;
+}
+
+.image-equilibrium {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 0.75em;
+    position: absolute;
+}
+
+.cont-title {
+    position: relative;
+    text-align: left;
+    top: 17rem;
+}
+
+.icon-text {
+    position: relative;
+    left: 1.2rem;
+    bottom: 2rem;
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+
+.line {
+    background-color: hsl(215, 32%, 27%);
+    position: relative;
+    width: 16rem;
+    height: 1px;
+    bottom: 2.2rem;
+}
+
+.image-avatar {
+    width: 12%;
+    height: 12%;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 100%;
+    bottom: 1.3rem;
+}
+
+.creation {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 3rem;
+}
+
+.jw {
+    position: absolute;
+    text-align: right;
+    bottom: 0.5rem;
+    right: 3.4rem;
+    color: white;
+    transition: .5s ease;
+}
+
+.icon-clock {
+    position: relative;
+    left: 10rem;
+    top: 10.3rem;
+}
+
+.clock-text {
+    text-align: right;
+    position: relative;
+    top: 8.2rem;
+    right: 1rem;
+
+}
