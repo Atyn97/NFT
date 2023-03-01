@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Atyn97/NFT)
+- Solution URL: [Atyn97/NFT](https://github.com/Atyn97/NFT)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
